@@ -9,3 +9,4 @@
 
 **Useful Resource:**
 - https://dev.to/gmkonan/customizing-git-bash-in-windows-2al3
+- https://bash-prompt-generator.org/
