@@ -2,7 +2,7 @@
 
 <div align="center">
   
-![preview](https://i.ibb.co/YcYLXkx/image.png)
+![preview](git-terminal.png)
   
 </div>
 
