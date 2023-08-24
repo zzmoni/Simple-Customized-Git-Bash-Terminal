@@ -12,7 +12,7 @@ else
 	PS1='\[\033]0;\u@\w\007\]'     # set window title
 	PS1="$PS1"'\[\033\e[38;5;147m\]'    # color of ❯❯
 	PS1="$PS1"'❯❯ '
-  PS1="$PS1"'\[\033\e[38;5;230m\]\@\[\e[0m\]'     # time
+    PS1="$PS1"'\[\033\e[38;5;230m\]\@\[\e[0m\]'     # time
 	PS1="$PS1"'\[\033\e[38;5;123;3m\] \W\[\e[0m\]'      # branch
 	if test -z "$WINELOADERNOEXEC"
 	then
@@ -24,7 +24,7 @@ else
 		then
 			. "$COMPLETION_PATH/git-completion.bash"
 			. "$COMPLETION_PATH/git-prompt.sh"
-			PS1="$PS1"'\[\033\e[38;5;44;2m\]'  # color of bash function
+			PS1="$PS1"'\[\033\e[38;5;44;2m\]'	# color of branch function
 			PS1="$PS1"'`__git_ps1`'   # bash function
 		fi
 	fi
@@ -33,7 +33,7 @@ else
     PS1="$PS1"'\n'                 # new line
 	PS1="$PS1"'🐼 '               # prompt: always 🐼
 
-	export LS_COLORS="di=1;33:ln=36"    # ls colors
+	export LS_COLORS="di=1;33:ln=36"	# ls color
 fi
 
 MSYS2_PS1="$PS1"               # for detection by MSYS2 SDK's bash.basrc
