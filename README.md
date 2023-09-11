@@ -7,6 +7,6 @@
 </div>
 
 
-**Useful Resource:**
+**Useful Resources:**
 - https://dev.to/gmkonan/customizing-git-bash-in-windows-2al3
 - https://bash-prompt-generator.org/
